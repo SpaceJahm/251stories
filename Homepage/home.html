@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <title>Lab 19 - CSS Framework</title>
+    <title>SpaceJAHM Stories</title>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" type="text/css" href="../css/site.css">
-  	<link rel="stylesheet" type="text/css" href="css/lab.css">
+  	<link rel="stylesheet" type="text/css" href="css/home.css">
   	<link rel="stylesheet" href="/css/master.css">
   	<!-- Latest compiled and minified CSS -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -25,7 +25,47 @@
     }
     </style>
   </head>
-  <body>
 
+  <body>
+    <main class=container-fluid>
+
+
+
+<!-- NOTE: carousel -->
+
+		<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+		<li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/" alt="" width="500px">
+        </div>
+        <div class="carousel-item">
+          <img src="img/" alt="" width="500px">
+        </div>
+        <div class="carousel-item">
+          <img src="img/" alt="" width="500px">
+        </div>
+    		<div class="carousel-item">
+          <img src="img/" alt="" width="500px">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </main>
   </body>
 </html>
