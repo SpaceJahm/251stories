@@ -2,22 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <title>SpaceJAHM Stories</title>
-    <nav class="navbar navbar-expand-md bg-info navbar-light">
-      <!-- Brand -->
-  <a class="navbar-brand" href="#"></a>
-		<img src="" height=60px width=auto>
-    <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="../homepage/home.html">Home</a>
-        </li>
-      </ul>
-    </div>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" type="text/css" href="../css/site.css">
   	<link rel="stylesheet" type="text/css" href="home.css">
@@ -46,13 +30,25 @@
   <body>
     <main class=container-fluid>
 
-      <!-- NOTE: NAV -->
-      <nav class="navbar navbar-expand-sm bg-light">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../story1.html">Link 1</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-md bg-info navbar-light">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#"></a>
+    		    <img src="" height=60px width=auto>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../homepage/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../story1.html">Link 1</a>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <!-- NOTE: FIRST ROW -->
@@ -80,16 +76,16 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/naturebark.jpg" alt="Sketches1" width="500px">
+                <img src="img/jonathan.png" alt="Jonathan" width="500px">
               </div>
               <div class="carousel-item">
-                <img src="img/natureleaf.jpg" alt="Sketches2" width="500px">
+                <img src="img/matthew.png" alt="Matthew" width="500px">
               </div>
               <div class="carousel-item">
-                <img src="img/naturetree.jpg" alt="Sketches3" width="500px">
+                <img src="img/amanda.png" alt="Amanda" width="500px">
               </div>
           		<div class="carousel-item">
-                <img src="img/naturewalk.jpg" alt="Friend in nature" width="500px">
+                <img src="img/haley.png" alt="Haley" width="500px">
               </div>
             </div>
 
@@ -109,17 +105,42 @@
       </div>
       <!-- NOTE: ROW 2 -->
       <div class="row2">
-        <div class="col-sm-3">
+        <div class="col-sm-12">
+          <div id="demo" class="carousel slide" data-ride="carousel">
 
-        </div>
-        <div class="col-sm-3">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+          		<li data-target="#demo" data-slide-to="3"></li>
+            </ul>
 
-        </div>
-        <div class="col-sm-3">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/" alt="Jonathan" width="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/" alt="Matthew" width="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/" alt="Amanda" width="500px">
+              </div>
+          		<div class="carousel-item">
+                <img src="img/" alt="Haley" width="500px">
+              </div>
+            </div>
 
-        </div>
-        <div class="col-sm-3">
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
 
+          </div>
         </div>
       </div>
 
