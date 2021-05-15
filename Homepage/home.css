@@ -1,0 +1,19 @@
+div {
+  border: solid 2px darkgrey;
+}
+
+.col-sm-3 {
+  background-color: darkgrey;
+}
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: #97cdef ;
+}
+
+h4 {
+  text-align: right;}
