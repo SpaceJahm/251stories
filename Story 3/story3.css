@@ -3,16 +3,13 @@ body {
 }
 
 .paragraphs {
-  width: 600px;
-  position: absolute;
-  left: 35px;
-  top: 160px;
+  background-color: red;
+
   font-family: 'Patrick Hand', cursive;
 
 }
 
 h1 {
-  position: absolute;
   left: 160px;
   top: 90px;
   font-family: 'Noticia Text', serif;
