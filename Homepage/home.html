@@ -24,6 +24,9 @@
       height: 100%;
     }
     </style>
+    <!--Font Link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&family=Patrick+Hand&display=swap" rel="stylesheet">
 
   </head>
 
@@ -32,8 +35,9 @@
 
       <nav class="navbar navbar-expand-md navbar-light">
           <!-- Brand -->
-          <a class="navbar-brand" href="#"></a>
-    		    <img src="" height=60px width=auto>
+          <a class="navbar-brand" href="#">
+    		    <img src="../img/booklogo.png" height=60px width=auto>
+          </a>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -42,10 +46,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../homepage/home.html">Home</a>
+              <a class="nav-link" href="../story 1/story1.html">The Giving Tree</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../story1.html">Link 1</a>
+              <a class="nav-link" href="../story 2/story2.html">Winnie the Pooh</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../story 3/story3.html">Snow White and the Seven Dwarfs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../story 4/story4.html">Princess and the Frog</a>
             </li>
           </ul>
         </div>
@@ -63,16 +73,7 @@
         <div class="col">
           <!-- NOTE: carousel -->
 
-          <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-          		<li data-target="#demo" data-slide-to="3"></li>
-            </ul>
-
+          <div id="demo" class="carousel slide" data-ride="carousel" data-pause="false">
             <!-- The slideshow -->
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -96,15 +97,6 @@
                 </a>
               </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-
           </div>
         </div>
         <div class="col">
@@ -114,52 +106,42 @@
       <!-- NOTE: ROW 2 -->
       <div class="row">
         <div class="col">
-          <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-          		<li data-target="#demo" data-slide-to="3"></li>
-            </ul>
-
+          <div id="demo" class="carousel slide" data-ride="carousel" data-pause="false">
             <!-- The slideshow -->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <a href="../story 1/story1.html">
-                <img src="img/" alt="Jonathan" width="500px">
+                <img src="img/story1.jpg" alt="Jonathan" width="500px">
                 </a>
               </div>
               <div class="carousel-item">
                 <a href="../story 2/story2.html">
-                <img src="img/" alt="Matthew" width="500px">
+                <img src="img/story2.jpg" alt="Matthew" width="500px">
                 </a>
               </div>
               <div class="carousel-item">
                 <a href="../story 3/story3.html">
-                <img src="img/" alt="Amanda" width="500px">
+                <img src="img/story3.jpg" alt="Amanda" width="500px">
                 </a>
               </div>
           		<div class="carousel-item">
                 <a href="../story 4/story4.html">
-                <img src="img/" alt="Haley" width="500px">
+                <img src="img/story4.jpg" alt="Haley" width="500px">
                 </a>
               </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-
           </div>
         </div>
+        <div class="col 2">
+          <h3>Mission Statement</h3>
+          <p>The goal of this project is ...</p>
+        </div>
       </div>
-
+      <footer class="row">
+        <div class="col">
+          <a class="feedback" href="mailto:mlencioni@csumb.edu">Tell us how we're doing!</a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
