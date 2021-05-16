@@ -1,0 +1,31 @@
+div, nav{
+
+}
+
+.col-sm-3 {
+  background-color: darkgrey;
+  max-height: 30vh;
+  max-width: 20vw;
+}
+
+.col-sm-12{
+  background-color: darkgrey;
+}
+
+.row, .row2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+top: 0px;
+}
+
+body {
+  background-color: #97cdef ;
+}
+
+h4 {
+  text-align: right;}
+
+img{
+  max-height: 30vh;
+  object-fit: contain;
+}
