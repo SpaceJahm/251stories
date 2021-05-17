@@ -1,10 +1,9 @@
 html body {
-  background-color: rgb(254,248,197);
-    background-image: url(../img/3bg.jpg);
-    background-color: rgb(254,248,197);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  background-image: url(../img/4bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:repeat-y;
+  background-attachment: scroll;
 }
 
 .paragraphs {
@@ -21,7 +20,11 @@ h1 {
 }
 
 nav{
-  background-color: rgb(238,234,183);
+}
 
+div.col-lg-6{
+  background-color: rgb(175,200,150);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;
 
 }
