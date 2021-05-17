@@ -1,5 +1,9 @@
-body {
-
+html body {
+  background-image: url(../img/3bg.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat:repeat-y;
+  background-attachment: scroll;
 }
 
 .paragraphs {
@@ -7,11 +11,21 @@ body {
   width: 500px;
   right: 10px;
   font-family: 'Patrick Hand', cursive;
-
 }
 
 h1 {
   position: relative;
   left: 80px;
   font-family: 'Noticia Text', serif;
+}
+
+nav{
+
+}
+
+div.col-lg-6{
+  background-color: rgb(175,200,150);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;
+
 }
