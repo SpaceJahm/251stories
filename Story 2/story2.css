@@ -1,4 +1,5 @@
-body {
+html body {
+  background-color: rgb(254,248,197);
 
 }
 
@@ -7,11 +8,16 @@ body {
   width: 500px;
   right: 10px;
   font-family: 'Patrick Hand', cursive;
-
 }
 
 h1 {
   position: relative;
   left: 80px;
   font-family: 'Noticia Text', serif;
+}
+
+nav{
+  background-color: rgb(238,234,183);
+
+
 }
